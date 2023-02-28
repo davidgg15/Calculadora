@@ -7,7 +7,7 @@ public class Principal {
 	Scanner teclado = new Scanner(System.in);
 	char conti;
 	do {
-	System.out.print("Escoge la operacion: 1-Suma 2-Resta 3-Multiplicacion 4-Division");
+	System.out.print("Escoge la operacion: 1-Suma 2-Resta 3-Multiplicacion 4-Divisiony 5-Potenciacion");
 	int  respu=teclado.nextInt(); 
 	System.out.print("Introduce valor a:");
 	int  a=teclado.nextInt(); 
@@ -28,6 +28,9 @@ public class Principal {
 	case 4:
 		op.division();
 		break;
+	case 5:
+		op.potenciacion();
+		break;
 	}
 	System.out.print("Quieres realizar otra operacion (S/N): ");
 	conti = teclado.next().charAt(0);
@@ -36,5 +39,7 @@ public class Principal {
 	while (conti == 'S');
 	System.out.print("Fin Programa");
 	}
+	
+	}
 
-}
+

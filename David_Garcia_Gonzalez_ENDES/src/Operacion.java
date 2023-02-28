@@ -42,4 +42,8 @@ public double division() {
 double division=a/b;
 return division;
 }
+public double potenciacion() {
+double potenciacion=Math.pow(a, b);
+return potenciacion;
+}
 }
