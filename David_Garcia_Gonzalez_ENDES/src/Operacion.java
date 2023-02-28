@@ -46,4 +46,8 @@ public double potenciacion() {
 double potenciacion=Math.pow(a, b);
 return potenciacion;
 }
+public double raiz() {
+	double raiz=Math.pow(a, 0.5);
+	return raiz;
+}
 }
